@@ -1,4 +1,4 @@
-Design of a hardware system for performing matrix-vector multiplication, where the matrix is dense, and the vector is sparse. This is called “matrix-sparse vector multiplication,”.  
+Design of a hardware system for performing matrix-vector multiplication, where the matrix is dense, and the vector is sparse. This is called “matrix-sparse vector multiplication”.  
 
 We say a matrix or vector is considered sparse if many of its elements are equal to 0. If a matrix/vector is not sparse, we call it dense. Sparse data occurs in a very wide number of applications in science and engineering such as solving partial differential equations, circuit simulation, graph theory, and machine learning. Often, these applications operate on very large, very sparse matrices. This project is a less complex (but useful) variation of this problem: multiplication of a relatively small dense matrix with a sparse vector. Specifically, this problem is inspired by recent research on sparsity in transformer networks (e.g., GPT), which are commonly used in natural language applications such as chatbots.
 
